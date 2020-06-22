@@ -1,10 +1,12 @@
-package udemy_exercises;
+package com.sabitha;
+
+
 
 import java.util.Arrays;
 import java.util.Scanner;
 
 
-class Sorting {
+class Main {
     private static Scanner scanner = new Scanner(System.in);
 
     public static int[] sortIntegers(int[] nums) {
@@ -26,8 +28,8 @@ class Sorting {
     }
 
     public static void printNums(int[] array) {
-            System.out.println(Arrays.toString(array));
-   }
+        System.out.println(Arrays.toString(array));
+    }
 
     public static int[] getNums(int capacity) {
         int[] enteredArray = new int[capacity];
@@ -62,30 +64,4 @@ class Sorting {
     }
 
 }
-/*
 
-public class Main {
-
-    public static void main(String[] args) {
-
-        int[] array = { 1, 5, 3, 7, 11, 9, 15};
-
-        System.out.println("Array = " + Arrays.toString(array));
-
-        reverse(array);
-
-        System.out.println("Reversed array = " + Arrays.toString(array));
-    }
-
-    private static void reverse(int[] array) {
-
-        int maxIndex = array.length -1;
-        int halfLength = array.length / 2;
-        for(int i=0; i< halfLength; i++) {
-            int temp = array[i];
-            array[i] = array[maxIndex -i];
-            array[maxIndex - i] = temp;
-        }
-    }
-}
-*/

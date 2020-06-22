@@ -1,4 +1,4 @@
-package bank;
+package com.sabitha;
 
 import java.util.ArrayList;
 
@@ -25,9 +25,3 @@ public class Customer {
     }
 
 }
-
-/*
-- **Customer Class**:
-- Customer Name
-*/
-
